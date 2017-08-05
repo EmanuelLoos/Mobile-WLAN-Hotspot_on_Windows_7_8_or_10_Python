@@ -18,7 +18,7 @@ if command=="e":
 		print("Please make 3 Links on your Desktop:\n\make\nPath:\n{}\n\start\nPath:\n{}\n\nstop\nPath:\n{}\n\n\nPlease stat make as Administrator to make your mobile hotspot.\nWith start you start it and with stop you stop it.".format(erstellen,starten,beenden))
 
 if command=="g":
-	ssid=input("Welchen Namen(SSID) soll ihr Mobiler Hotspot haben? name(ssid)\n")
+	ssid=input("Welchen Namen(SSID) soll ihr Mobiler Hotspot haben?\n")
 	key_yes_or_no=input("Möchten sie einen Sicherheitsschlüssel(Passwort)?\nDrücken Sie j wenn sie einen Möchten.\nDrücken Sie n Wenn Sie keinen möchten.\n")
 	if key_yes_or_no=="j":
 		key=input("Welchen Sicherheitsschlüssel möchten Sie?\n")
